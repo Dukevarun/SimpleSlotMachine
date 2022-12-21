@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EgmpO9pM5bIFsbMnyuTNNF5Bhj9FRNS45PRGWqrtlA43MCoIDk1BJ+de8RS3huJ7gepGqFHabsLpwGisBWFkmg==",
+  "success": true,
+  "projectFilePath": "D:\\Works\\Interview Tests\\SlotMachine\\SimpleSlotMachine\\SlotMachine\\SlotMachine\\SlotMachine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\91966\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.19\\microsoft.netcore.app.host.win-x64.3.1.19.nupkg.sha512"
+  ],
+  "logs": []
+}
