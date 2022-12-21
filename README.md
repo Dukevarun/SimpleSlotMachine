@@ -1,0 +1,2 @@
+# SimpleSlotMachine
+Bede Gaming Assignment
