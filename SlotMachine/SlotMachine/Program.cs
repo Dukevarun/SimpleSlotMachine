@@ -73,8 +73,21 @@ namespace SlotMachine
                         //Console.WriteLine(table[i].Select(x => (Symbol)x).ToList().Print().Replace("WILD", "*"));
                         coeff += GetRowCoeff(table[i]);
                     }
-                }
-            }
+
+                    // We calculate the winning amount based on the coefficient value we previously calculated
+                    // We also Update the balance of the player with the winnings
+                    float winAmount = coeff * stakeAmount;
+                    currentBalance = currentBalance - stakeAmount + winAmount;
+
+                    // Print the winnings and current balance of the player for each turn
+                    Console.WriteLine("You have won : " + winAmount);
+                    Console.WriteLine("Current balance is : " + currentBalance.ToString("F2"));
+                }// End if
+            }// End while loop
+
+            Console.WriteLine("Not enough money to play, exiting game!!");
+
+            Console.ReadLine();
         }
 
         // Method to create the spin table
