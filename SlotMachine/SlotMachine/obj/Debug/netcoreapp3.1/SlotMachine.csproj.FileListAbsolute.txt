@@ -1,0 +1,14 @@
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\bin\Debug\netcoreapp3.1\SlotMachine.exe
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\bin\Debug\netcoreapp3.1\SlotMachine.deps.json
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\bin\Debug\netcoreapp3.1\SlotMachine.runtimeconfig.json
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\bin\Debug\netcoreapp3.1\SlotMachine.runtimeconfig.dev.json
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\bin\Debug\netcoreapp3.1\SlotMachine.dll
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\bin\Debug\netcoreapp3.1\SlotMachine.pdb
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\obj\Debug\netcoreapp3.1\SlotMachine.csproj.AssemblyReference.cache
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\obj\Debug\netcoreapp3.1\SlotMachine.GeneratedMSBuildEditorConfig.editorconfig
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\obj\Debug\netcoreapp3.1\SlotMachine.AssemblyInfoInputs.cache
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\obj\Debug\netcoreapp3.1\SlotMachine.AssemblyInfo.cs
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\obj\Debug\netcoreapp3.1\SlotMachine.csproj.CoreCompileInputs.cache
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\obj\Debug\netcoreapp3.1\SlotMachine.dll
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\obj\Debug\netcoreapp3.1\SlotMachine.pdb
+D:\Works\Interview Tests\SlotMachine\SimpleSlotMachine\SlotMachine\SlotMachine\obj\Debug\netcoreapp3.1\SlotMachine.genruntimeconfig.cache
