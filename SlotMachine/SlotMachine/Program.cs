@@ -70,7 +70,7 @@ namespace SlotMachine
                     // We print and calculate row wise
                     for (int i = 0; i < rowCount; i++)
                     {
-                        //Console.WriteLine(table[i].Select(x => (Symbol)x).ToList().Print().Replace("WILD", "*"));
+                        Console.WriteLine(table[i].Select(x => (Symbol)x).ToList().Print().Replace("WILD", "*"));
                         coeff += GetRowCoeff(table[i]);
                     }
 
