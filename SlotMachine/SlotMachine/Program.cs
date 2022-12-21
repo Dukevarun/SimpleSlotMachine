@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
 
 //read deposit amount from user
 //read stake amount from user for every spin
@@ -35,6 +36,12 @@ namespace SlotMachine
             Tuple.Create(5 + 15 + 35 + 45, Symbol.A),
         };
 
+        private static Dictionary<Symbol, float> coeffs = new Dictionary<Symbol, float>() {
+            { Symbol.WILD, 0f },
+            { Symbol.P, 0.8f },
+            { Symbol.B, 0.6f },
+            { Symbol.A, 0.4f },
+        };
         #endregion Variables
 
         static void Main(string[] args)
@@ -55,6 +62,17 @@ namespace SlotMachine
                 {
                     // We create a table of the spin that a player made which contains 4 rows and 3 symbols in each row 
                     List<List<int>> table = GetSpinTable();
+
+                    float coeff = 0.0F;
+
+                    // We print out the spin table with the symbols generated randomly
+                    // Calculate the total winning coefficients for the current spin
+                    // We print and calculate row wise
+                    for (int i = 0; i < rowCount; i++)
+                    {
+                        //Console.WriteLine(table[i].Select(x => (Symbol)x).ToList().Print().Replace("WILD", "*"));
+                        coeff += GetRowCoeff(table[i]);
+                    }
                 }
             }
         }
@@ -87,6 +105,26 @@ namespace SlotMachine
                 spinTable.Add(rowValues);
             }
             return spinTable;
+        }
+
+        // Method to Calcuate the coefficients of each row to calculate the winning amount of a spin
+        private static float GetRowCoeff(List<int> list)
+        {
+            // Removing all WILDs from the list
+            list.RemoveAll(x => x == (int)Symbol.WILD);
+
+            // We check the number of unique values in the list
+            // This determines the if a row is a winning row or not
+            int uniques = list.Distinct().Count();
+
+            // We will check if all symbols in the row are same by checking the unique value count previously
+            bool isLineMatch = uniques == 1;
+
+            // We will return 0 if there are not matches else return the total coeff of the matched symbols
+            if (!isLineMatch)
+                return 0f;
+            else
+                return coeffs[(Symbol)list[0]] * list.Count;
         }
     }
 }
